@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	flex-flow: column;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	background: rgb(0, 139, 79);
+	color: rgb(255,255,255);	
+}
+form {
+	margin: 5px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+form label {
+	color: rgb(196, 156, 33);
+}
+form input {
+	width: 45%;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid rgb(255, 204, 48);
+	font-family: inherit;
+}
+form input:focus {
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	outline: none;
+}
+form button {
+	cursor: pointer;
+	background: rgb(255, 204, 48);
+	border: 1px solid rgb(255, 204, 48);
+	border-radius: 6px;
+	width: 40%;
+	padding: 5px;
+	margin: 5px;
+	font-family: inherit;
+	font-weight: bolder;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
